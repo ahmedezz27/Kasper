@@ -3,7 +3,7 @@
 :root {
   --main-color: #19c8fa;
   --transparent-color: rgb(15 116 143 / 70%);
-  --section-padding: 100px;
+  --section-padding: 100px 0;
 }
 
 /* End Variables */
@@ -1161,7 +1161,7 @@ header nav .form i {
 .footer {
   background-image: url(../images/subscribe.jpg);
   background-size: cover;
-  padding: calc(var(--section-padding) / 2);
+  padding: 50px 0;
   color: #ffffff;
   text-align: center;
   position: relative;
@@ -1205,6 +1205,17 @@ header nav .form i {
 .footer .copyright span {
   color: var(--main-color);
   font-weight: bold;
+}
+
+.up {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background-color: var(--main-color);
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 30px;
 }
 
 /* End Footer Section */
